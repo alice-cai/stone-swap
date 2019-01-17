@@ -1,0 +1,9 @@
+images/banner.png
+images/dawn_stone.png
+images/dusk_stone.png
+images/leaf_stone.png
+images/sun_stone.png
+images/thunder_stone.png
+images/fire_stone.png
+images/water_stone.png
+images/chansey.png
