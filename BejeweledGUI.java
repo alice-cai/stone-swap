@@ -418,7 +418,7 @@ public class BejeweledGUI {
 	* @param numMove the number of moves used in the game
 	*/
 	public void showGameOverMessage(int point, int numMove){
-		JOptionPane.showMessageDialog(null, "Chansey says: \"You got " + point + " points with " + numMove + " moves. Thanks for playing!\"", "Game Over!", JOptionPane.INFORMATION_MESSAGE, messageIcon); 
+		JOptionPane.showMessageDialog(null, "Chansey says: \"You got " + point + " points with\n" + numMove + " moves. Thanks for playing!\"", "Game Over!", JOptionPane.INFORMATION_MESSAGE, messageIcon); 
 		System.exit(0);
 	}
 }

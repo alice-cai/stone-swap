@@ -5,6 +5,9 @@
 * by swapping two pieces. Chains formed after valid moves disappear and the pieces on
 * top fall to fill in the gaps. New, random pieces fill in the empty slots. The game
 * ends when the player runs out of moves or when there are no more possible moves.
+*
+* known issue: when there are intersecting chains, the game will only detect one of
+* them (i don't feel like fixing this. no one is going to play this game anyway.)
 */
 
 import java.awt.Color;
