@@ -176,7 +176,7 @@ public class Bejeweled {
 				}
 
 				// Check if swapping the current piece up or down results in any chain formations.
-				// If so, return true;
+				// If so, return true.
 				for(int i = -1; i <= 1; i += 2) {
 					int newCol = col + i;
 					if (newCol >= 0 && newCol < NUMCOL) {
@@ -202,7 +202,8 @@ public class Bejeweled {
 
 	/**
 	* removeExistingChains
-	* This method keeps calling the findExistingChains method until it cannot
+	* This method keeps calling the findExistingChains method until there
+	* are no more chains left on the board.
 	*/
 	private void removeExistingChains (boolean gameInProgress) {
 		do {
