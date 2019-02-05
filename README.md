@@ -5,4 +5,4 @@ This is a simplified version of the Bejeweled (TM) game. It includes a point sys
 
 ## how to run
 
-Clone the repository and run BejeweledRunner.
+Clone the repository, compile all .java files, and run BejeweledRunner.
